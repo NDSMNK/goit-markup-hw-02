@@ -1,0 +1,90 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    }
+.logo {
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+.logo-header {
+    color:black
+}
+.logo-footer {
+    color: #FFFFFF;
+}
+.logo {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+}
+.link {
+    text-decoration: none;
+}
+/*-------------------------HEADER-------------------------------*/
+
+.link {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+
+    color: #212121;
+}
+.link:hover,.link:focus {
+    color: #2196F3;
+}
+.header {
+    color: #757575;
+}
+.header:hover, .header:focus {
+    color: #2196F3;
+}
+/*-------------------HERO---------------------*/
+.title {
+    font-weight: 900;
+    color: #FFFFFF; 
+}
+.titles {
+    color: #212121;
+}
+.list.title {
+    color: #212121;
+}
+.main .main-1 {
+    background-color:#2F303A;
+}
+.button {
+    background-color: #2196F3;
+}
+.button-item {
+    background-color: #F5F4FA;
+}
+.button:hover, .button:focus {
+    background-color: #2196F3;
+}
+.button-item:hover, .button-item:focus {
+    background: #2196F3;
+    cursor: pointer;
+}
+.list .subtitle {
+    color: #757575;
+}
+
+/*----------------FOOTER------------------------*/
+footer {
+    background-color: #2F303A;
+}
+.footer {
+    color: #FFFFFF99;
+    font-style: normal;
+    text-decoration: none;
+}
+.address{
+    color: #FFFFFF;
+}
