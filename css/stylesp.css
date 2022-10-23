@@ -11,10 +11,22 @@ body {
         color: #2196F3;
 }
 .logo-header {
-    color:black
+    color:black;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 .logo-footer {
     color: #FFFFFF;
+    font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 }
 .logo {
     text-decoration: none;
@@ -46,12 +58,27 @@ body {
     color: #2196F3;
 }
 /*-------------------HERO---------------------*/
+.nav-item {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+}
 .title {
-    font-weight: 900;
     color: #FFFFFF; 
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 4.28;
 }
 .titles {
     color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.list.titleses {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 .list.title {
     color: #212121;
@@ -61,9 +88,19 @@ body {
 }
 .button {
     background-color: #2196F3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button-item {
     background-color: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 .button:hover, .button:focus {
     background-color: #2196F3;
@@ -74,6 +111,20 @@ body {
 }
 .list .subtitle {
     color: #757575;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.list.subtitles {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.name-people {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
 }
 
 /*----------------FOOTER------------------------*/
