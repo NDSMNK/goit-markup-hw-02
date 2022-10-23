@@ -75,13 +75,18 @@ body {
     font-size: 18px;
     line-height: 2;
 }
-.list.titleses {
+.titleses {
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 .list.title {
     color: #212121;
+}
+.h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
 }
 .main .main-1 {
     background-color:#2F303A;
@@ -109,13 +114,14 @@ body {
     background: #2196F3;
     cursor: pointer;
 }
-.list .subtitle {
+.subtitle {
     color: #757575;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
 }
-.list.subtitles {
+.subtitles {
+    color: #757575;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
@@ -138,4 +144,7 @@ footer {
 }
 .address{
     color: #FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
