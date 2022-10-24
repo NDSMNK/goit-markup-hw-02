@@ -1,3 +1,14 @@
+:root {
+    --h1-headline-text-color: #ffffff;
+    --h-headline-text-color: #212121;
+    --primary-text-color: #757575;
+    --footer-text-color: #ffffff60;
+    --address-text-color: #ffffff;
+    --website-color: #2196f3;
+    --color-header: #000000;
+    --button-color: #f5f4f2;
+    --footer-bg-color: #2F303A;
+}
 body {
     font-family: 'Roboto', sans-serif;
     }
@@ -8,10 +19,10 @@ body {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        color: #2196F3;
+        color: var(--website-color);
 }
 .logo-header {
-    color:black;
+    color: var(--color-header);
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -20,7 +31,7 @@ body {
         letter-spacing: 0.03em;
 }
 .logo-footer {
-    color: #FFFFFF;
+    color: var(--address-text-color);
     font-family: 'Raleway';
         font-style: normal;
         font-weight: 700;
@@ -38,113 +49,133 @@ body {
     text-decoration: none;
 }
 /*-------------------------HEADER-------------------------------*/
-
 .link {
-    font-family: 'Roboto';
+    color: var(--h-headline-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-
-    color: #212121;
 }
 .link:hover,.link:focus {
-    color: #2196F3;
+    color: var(--website-color);
 }
 .header {
-    color: #757575;
+    color: var(--primary-text-color);
 }
 .header:hover, .header:focus {
-    color: #2196F3;
+    color: var(--website-color);
 }
 /*-------------------HERO---------------------*/
 .nav-item {
+    color: var(--h-headline-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .title {
-    color: #FFFFFF; 
+    color: var(--address-text-color); 
     font-weight: 900;
     font-size: 44px;
-    line-height: 4.28;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 .titles {
-    color: #212121;
-    font-weight: 700;
+    color: var(--h-headline-text-color);
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .titleses {
+    color: var(--h-headline-text-color);
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
 }
 .list.title {
-    color: #212121;
+    color: var(--h-headline-text-color);
 }
-.h2 {
-    font-weight: 700;
+.subtitle {
+    color: var(--h-headline-text-color);
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
+}
+.subtitledescription {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
 }
 .main .main-1 {
     background-color:#2F303A;
 }
 .button {
-    background-color: #2196F3;
-    font-weight: 500;
+    color: var(--address-text-color);
+    background-color: var(--website-color);
+    font-family: inherit;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.87;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
 }
 .button-item {
+    color:#212121;
     background-color: #F5F4FA;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
 }
 .button:hover, .button:focus {
-    background-color: #2196F3;
-}
-.button-item:hover, .button-item:focus {
-    background: #2196F3;
+    color: var(--address-text-color);
+    background-color: var(--website-color);
     cursor: pointer;
 }
-.subtitle {
-    color: #757575;
+.button-item:hover, .button-item:focus {
+    color: var(--address-text-color);
+    background: var(--website-color);
+    cursor: pointer;
+}
+.description {
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;   
+}
+.subtitles {
+    color: var(--primary-text-color);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
-}
-.subtitles {
-    color: #757575;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.8;
+    letter-spacing: 0.03em;
 }
 
 .name-people {
+    color: var(--h-headline-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    letter-spacing: 0.03em;
 }
 
 /*----------------FOOTER------------------------*/
 footer {
-    background-color: #2F303A;
+    background-color: var(--footer-bg-color);
 }
 .footer {
-    color: #FFFFFF99;
+    color: var(--footer-text-color);
     font-style: normal;
     text-decoration: none;
-}
-.address{
-    color: #FFFFFF;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
