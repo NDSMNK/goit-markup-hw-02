@@ -182,6 +182,7 @@ img {
     background-color: var(--address-text-color);
 }
 .container-about {
+    width: 1200px;
     text-align: left;
     margin-left: auto;
     margin-right: auto;
@@ -242,6 +243,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 15px;
@@ -269,6 +271,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #F5F4FA;
+    width: 1200px;
     margin-right: auto;
     margin-left: auto;
     padding-left: 15px;
@@ -399,6 +402,7 @@ img {
     letter-spacing: 0.06em;
 }
 .subtitle {
+    justify-content: center;
     color: var(--h-headline-text-color);
     margin-top: 0px;
     padding-top: 0px;
@@ -539,9 +543,12 @@ footer {
 }
 .double-container-footer {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     gap: 70px;
     padding-left: 15px;
     padding-right: 15px;
+    width: 1200px;
 }
 .page-footer {
     background-color: var(--footer-bg-color);
