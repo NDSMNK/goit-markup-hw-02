@@ -25,7 +25,7 @@
             <a class="logo" href="">Web<span class="logo-header">Studio</span></a>
             <nav class="container-nav"> 
                 <ul class="site list">
-                    <li class="nav-item"><a href="./index.html" class="link">Студія</a></li>
+                    <li class="nav-item"><a href="./index.html" class="current link">Студія</a></li>
                     <li class="nav-item"><a href="./portfolio.html" class="link">Портфоліо</a></li>
                     <li class="nav-item"><a href="" class="link">Контакти</a></li>
                 </ul>
@@ -48,7 +48,7 @@
             <section class="page-main">
                 <div class="container-hero">
                     <h1 class="title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ</br></h1>
-                    <button type="button" class="button">Замовити послугу</button>
+                    <button type="button" class="button" data-modal-open >Замовити послугу</button>
                 </div>
             </section>
         </div>
@@ -79,13 +79,22 @@
                     <h2 class="subtitle">Чим ми займаємося</h2>
                 <ul class="work">
                     <li class="list">
-                        <img src="./images/computer.jpg" alt="комп'ютер" width="370">
+                        <div class="work-thumb">
+                            <img src="./images/computer.jpg" alt="комп'ютер" width="370">
+                            <p class="work-description">ДЕСКТОПНІ ДОДАТКИ</p>
+                        </div>
                     </li>
                     <li class="list">
-                        <img src="./images/telephone.jpg" alt="телефон" width="370">
+                        <div class="work-thumb">
+                            <img src="./images/telephone.jpg" alt="телефон" width="370">
+                            <p class="work-description">МОБІЛЬНІ ДОДАТКИ</p>
+                        </div>
                     </li>
                     <li class="list">
-                        <img src="./images/tablet.jpg" alt="планшет" width="370"> 
+                        <div class="work-thumb">
+                            <img src="./images/tablet.jpg" alt="планшет" width="370"> 
+                            <p class="work-description">ДИЗАЙНЕРСЬКІ РІШЕННЯ</p> 
+                        </div>
                     </li>
                 </ul>
                 </div>
@@ -409,7 +418,7 @@
                 <a class="logo" href="">Web<span class="logo-footer">Studio</span></a>
             <address>
                 <ul class="list">
-                    <li class="maps"><a href="https://goo.gl/maps/MvZ2R5Kgq9RjUwT79" class="current footer link">м. Київ, пр-т Лесі Українки, 26</a></li>
+                    <li class="maps"><a href="https://goo.gl/maps/MvZ2R5Kgq9RjUwT79" class="active footer link">м. Київ, пр-т Лесі Українки, 26</a></li>
                     <li><a href="mailto:info@devstudio.com" class="footer link">info@devstudio.com</a></li>
                     <li><a href="tel:+380961111111" class="footer link">+380961111111</a></li>
                 </ul>
@@ -470,5 +479,17 @@
             </div>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="modal-btn" data-modal-close>
+                <svg class="icon-closer" width="11" height="11">
+                    <use href="./sprite.svg#icon-closer"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+
+    <script src="./js/modal.js"></script>
 </body>
 </html>
