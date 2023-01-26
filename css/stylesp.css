@@ -35,30 +35,30 @@ img {
 }
 .logo {
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        color: var(--website-color);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3px;
+    letter-spacing: 0.03em;
+    color: var(--website-color);
 }
 .logo-header {
     color: var(--color-header);
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3px;
+    letter-spacing: 0.03em;
 }
 .logo-footer {
     color: var(--address-text-color);
     font-family: 'Raleway';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.3px;
+    letter-spacing: 0.03em;
 }
 .logo {
     text-decoration: none;
@@ -106,7 +106,7 @@ img {
 .site {
     display: flex;
     align-items: center;
-    margin-left: 93px;
+    margin-left: 76px;
 }
 .nav-item {
     margin-right: 50px;
@@ -777,23 +777,12 @@ footer {
     cursor: pointer;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-btn:hover,
-.modal-btn:focus + .icon-closer{
-    background: #404BBF;
-    fill: #E7E9FC;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-btn:hover .icon-closer {
+    fill: rgba(255, 255, 255, 1);
 }
-
-.icon-closer {
-    fill: rgba(0, 0, 0, 1);
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+.modal-btn:hover {
+    background-color: #404BBF;
 }
-.icon-closer:hover,
-.icon-closer:focus {
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    fill: snow;
-}
-
 .modal-label {
     display: block;
     text-align: center;
@@ -817,7 +806,6 @@ footer {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 0;
-    margin-top: 4px;
     padding-left: 38px;
     outline: none;
 }
@@ -825,9 +813,10 @@ footer {
     border-color:rgba(77, 90, 229, 1) ;
 }
 
+
 .modal-form-wrapper {
     position: relative;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
 }
 .modal-form-icon {
     position: absolute;
@@ -845,8 +834,7 @@ footer {
 }
 .modal-form-message {
     width: 100%;
-    height: 100px;
-    margin-top: 4px;
+    height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     resize: none;
@@ -936,6 +924,7 @@ footer {
     width: 264px;
     height: 40px;
     padding-left: 16px;
+    color: #ECECEC;
     
 }
 .footer-form-input::placeholder {
@@ -982,4 +971,7 @@ footer {
 .form-footer-sub {
     display: flex;
     gap: 24px;
+}
+.pr-policy {
+    color: #4D5AE5;
 }
